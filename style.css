@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  max-height: 100vh;
+  background-color: beige;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 10px 5px 5px grey;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: 900;
+  color: rgb(223, 125, 56);
+}
+.navbar .logo:hover {
+  color: rgb(158, 75, 16);
+  font-weight: 600;
+}
+.navbar-nav a {
+  margin: 0 1rem;
+  font-weight: 700;
+  font-size: 19px;
+  color: rgb(223, 125, 56);
+}
+.navbar-nav ul li {
+  list-style-type: none;
+}
+.navbar .navbar-nav a:hover {
+  border-bottom: 3px solid;
+  width: max-content;
+  /* font-size: 25px; */
+  text-decoration: none;
+  margin-top: 3rem;
+  color: rgb(158, 75, 16);
+}
+
+.hero {
+  margin: 5rem;
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  /* border: 1px solid black; */
+  box-shadow: 10px 5px 15px 5px grey;
+  border-radius: 10px;
+}
+img {
+  position: absolute;
+  margin: 1.5rem;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px;
+  margin-left: 8rem;
+}
+
+.data button {
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  height: 25px;
+  width: 70px;
+}
+.data button:hover {
+  background-color: blue;
+  color: aliceblue;
+}
+.data p,
+h5 {
+  padding: 7px;
+  justify-content: center;
+}
+.data p {
+  font-size: 14px;
+  font-weight: 100;
+}
+.data {
+  margin-left: 25rem;
+  position: relative;
+  display: block;
+  text-align: left;
+  padding-top: 2.2rem;
+  margin-top: 10px;
+}
+
+.desk h5,
+.desk-plus h5 {
+  margin: 4px;
+}
+
+.desk,
+.desk-plus {
+  display: block;
+  text-align: left;
+  padding-top: 1px;
+}
+
+.desk {
+  margin-left: 13rem;
+}
+.desk-plus h5 {
+  font-size: 14px;
+  font-weight: 90;
+  margin: 3px;
+}
+.form {
+  margin: 5rem;
+  padding: 1rem;
+  margin-top: -3rem;
+  display: flex;
+  justify-content: center;
+}
+.input {
+  width: 100%;
+  border: 1px solid black;
+  margin: 0.5rem;
+  height: 25px;
+  text-align: center;
+  border-radius: 10px;
+}
+.form label {
+  text-align: center;
+  justify-self: center;
+  margin-left: 41rem;
+  font-size: 15px bold;
+}
+.button button {
+  border: 1px solid black;
+  width: 100%;
+  margin: 0.5rem;
+  text-align: center;
+  background-color: rgb(5, 181, 5);
+  color: white;
+  font-weight: 600;
+  height: 30px;
+  border-radius: 10px;
+}
+.button button:hover {
+  background-color: rgb(0, 114, 0);
+}
